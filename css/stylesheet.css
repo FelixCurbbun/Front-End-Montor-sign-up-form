@@ -1,0 +1,119 @@
+body {
+  background: #ff8a86;
+  background-image: url("../images/bg-intro-desktop.png");
+  font-family: poppins;
+  margin: 0;
+}
+
+.container {
+  display: -ms-grid;
+  display: grid;
+}
+
+section {
+  padding: 1.5em 1.5em;
+}
+
+.left-col h1 {
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  margin-top: 2em;
+}
+
+.left-col p {
+  color: white;
+  padding-left: 1em;
+  text-align: center;
+}
+
+.try-cta {
+  background: #6141b8;
+  color: lightgray;
+  padding: 1em 3em;
+  border-radius: 0.5em;
+  border-style: none;
+  cursor: pointer;
+  padding: 1.5em 4em;
+  -webkit-filter: drop-shadow(0px 10px 0px rgba(0, 0, 0, 0.171));
+          filter: drop-shadow(0px 10px 0px rgba(0, 0, 0, 0.171));
+  font-size: 1em;
+}
+
+.try-cta span {
+  font-weight: bold;
+  color: white;
+}
+
+.form {
+  border-top: 0.5em;
+}
+
+.form .right-col {
+  background: white;
+  border-radius: 0.5em;
+  border: 2em;
+  padding: 1em 1.5em;
+  display: flexbox;
+  -webkit-filter: drop-shadow(0px 10px 0px rgba(0, 0, 0, 0.171));
+          filter: drop-shadow(0px 10px 0px rgba(0, 0, 0, 0.171));
+}
+
+.form .right-col label {
+  display: block;
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+}
+
+.form .right-col input {
+  width: 100%;
+  padding: 1.2em;
+  margin-bottom: 0.5em;
+  border-radius: 0.3em;
+  border: 1px solid gray;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.form .right-col .trial-cta {
+  width: 100%;
+  padding: 1.2em;
+  background: #69e273;
+  border: none;
+  border-radius: 0.3em;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  margin-top: 0.5em;
+}
+
+.form .right-col p {
+  font-size: 0.7em;
+  color: #aaaaaa;
+  text-align: center;
+  margin: 1em;
+}
+
+.form .right-col p a {
+  text-decoration: none;
+  color: #ff86c2;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 1080px;
+    margin: 0 auto;
+  }
+  section {
+    padding: 1em 10em;
+  }
+  .hero .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: left;
+  }
+}
+/*# sourceMappingURL=stylesheet.css.map */
